@@ -19,7 +19,6 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         "Add prefix", description="Add prefix for ech string in file"
     )
-    var = parser.add_help
     parser.add_argument("file_name", type=str, help="Source file")
     parser.add_argument("prefix", type=str, help="Strings prefix")
     parser.add_argument(
